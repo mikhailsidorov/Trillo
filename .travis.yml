@@ -9,7 +9,7 @@ cache:
 install:
   - npm install
 
-after_success:
+script:
   - npm run build:css
 
 deploy:
